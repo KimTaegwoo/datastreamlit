@@ -153,8 +153,6 @@ st.text_area('여러 줄의 텍스트 데이터를 입력: ', '무궁화 꽃이\
 
 # st.date_input ('날짜를 입력: ', datetime.date(2019, 7, 6))
 
-my_date = datetime.date(2021, 3, 2)
-print( '---> ', my_date)
 
 d = st.date_input('날짜를 입력하세요', my_date)
 st.write('날짜: ', d)
